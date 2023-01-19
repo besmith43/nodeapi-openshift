@@ -7,7 +7,7 @@ const app = express();
 app.get("/", (req, res) => {
 
   var options = {
-    host: "api",
+    host: "dotnetapi-openshift",
     port: 5000,
     path: "/"
   };
