@@ -7,7 +7,7 @@ const app = express();
 app.get("/", (req, res) => {
 
   var options = {
-    host: "dotnetapi-openshift",
+    host: "nodeapi-openshift-git.demo.svc.cluster.local",
     port: 5000,
     path: "/"
   };
